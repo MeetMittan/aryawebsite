@@ -1,16 +1,107 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     font-family: "poppins", sans-serif;
 }
+.topbar {
+    display: grid;
+    grid-template-columns: 18% 18% 25% 25% 18%;
+    column-gap: 0px;
+    font-size: 12px;
+    align-items: center;
+    background-color: #006341;
+    color: white;
+    height: 40px;
+}
 
+.topbar div {
+    display: flex;
+    margin-right: 2px;
+}
+
+.topbar .top-info {
+    margin-top: 5px;
+}
+
+.topbar img {
+    margin-right: 5px;
+}
+
+.topbar .top-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.navbar .navleft {
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: 5vh;
+}
+
+.navbar div img {
+    width: 80%;
+    height: auto;
+    margin-right: -100px;
+}
+
+.navbar .navlinks {
+    width: 90%;
+    background-color: #F76B0E;
+    margin: auto;
+    margin-top: -5vh;
+    font-size: 1.2rem;
+
+}
+
+.navbar .navlinks ul {
+    margin-left: -20px;
+    display: flex;
+    list-style: none;
+}
+
+.navbar .navlinks ul li {
+    margin: 0.5vh 2.5vh;
+}
+
+.navbar .navlinks ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.navbar .navlinks ul a:hover {
+    color: #006341;
+    border-bottom: 4px solid #006341;
+    transition: 0.5s;
+}
+
+.schoolname {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #006341;
+}
 .staff {
     text-align: center;
     color: #F76B0E;
     font-size: 30px;
     margin-top: 20px;
 }
-
+.quality{
+    text-align: center;
+   
+    
+    margin-top: 20px;
+}
 .wings {
     text-align: center;
 }
@@ -130,11 +221,23 @@ ul {
     padding-bottom: 10px;
     padding-left: 100px;
 }
-
+.calander img{
+    
+    border: #F76B0E solid 2px;
+    border-radius: 10px;
+}
+.calander {
+    text-align: center;
+    margin-top: 50px;
+   
+}
 .ind {
     text-align: center;
+    margin-top: 50px;
 }
+.para4{margin-top: 30px;
 
+}
 .day{
     text-align: center;
     font-size: 20px;
